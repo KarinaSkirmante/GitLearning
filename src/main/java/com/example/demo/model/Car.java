@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull;
 @Entity //to use relation with other tables
 @Table(name="CarTable") //to create table automatically
 public class Car {
-
+	//new comment
 	@Id //value will be unique
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="ID") //ID column will be in table
