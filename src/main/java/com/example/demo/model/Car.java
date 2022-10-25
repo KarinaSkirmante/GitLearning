@@ -1,5 +1,5 @@
 package com.example.demo.model;
-
+//new commnet from karina branch
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
