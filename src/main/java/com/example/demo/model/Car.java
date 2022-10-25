@@ -7,7 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
-
+//there will be linkage with other class - Driver
 @Entity //to use relation with other tables
 @Table(name="CarTable") //to create table automatically
 public class Car {
